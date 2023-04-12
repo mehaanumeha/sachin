@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="32" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-11T09:38:09 IST" name="Suite" finished-at="2023-04-11T09:39:27 IST" duration-ms="77950">
+    <groups>
+    </groups>
+    <test started-at="2023-04-11T09:38:09 IST" name="Test" finished-at="2023-04-11T09:39:27 IST" duration-ms="77950">
+      <class name="Testcases.Logoutbutton">
+        <test-method signature="verifylogout()[pri:0, instance:Testcases.Logoutbutton@38c6f217]" started-at="2023-04-11T09:38:41 IST" name="verifylogout" finished-at="2023-04-11T09:38:42 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogout -->
+      </class> <!-- Testcases.Logoutbutton -->
+      <class name="Testcases.Productordertestcase">
+        <test-method signature="verifyproductorder()[pri:0, instance:Testcases.Productordertestcase@35cabb2a]" started-at="2023-04-11T09:39:15 IST" name="verifyproductorder" finished-at="2023-04-11T09:39:21 IST" duration-ms="5717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductorder -->
+        <test-method signature="verifyordercancel()[pri:1, instance:Testcases.Productordertestcase@35cabb2a]" started-at="2023-04-11T09:39:21 IST" name="verifyordercancel" finished-at="2023-04-11T09:39:23 IST" duration-ms="2083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyordercancel -->
+        <test-method signature="verifycontinueshopping()[pri:2, instance:Testcases.Productordertestcase@35cabb2a]" started-at="2023-04-11T09:39:23 IST" name="verifycontinueshopping" finished-at="2023-04-11T09:39:24 IST" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontinueshopping -->
+      </class> <!-- Testcases.Productordertestcase -->
+      <class name="Testcases.Filtertestcase">
+        <test-method signature="verifyfilter()[pri:0, instance:Testcases.Filtertestcase@79e2c065]" started-at="2023-04-11T09:39:00 IST" name="verifyfilter" finished-at="2023-04-11T09:39:02 IST" duration-ms="1794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfilter -->
+      </class> <!-- Testcases.Filtertestcase -->
+      <class name="Testcases.Logintestcases">
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:Testcases.Logintestcases@3a93b025]" started-at="2023-04-11T09:39:06 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-11T09:39:08 IST" duration-ms="1745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usename]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:Testcases.Logintestcases@3a93b025]" started-at="2023-04-11T09:39:08 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-11T09:39:10 IST" duration-ms="1676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sause]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[231]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:Testcases.Logintestcases@3a93b025]" started-at="2023-04-11T09:39:10 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-11T09:39:11 IST" duration-ms="1779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[scret_sause]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:Testcases.Logintestcases@3a93b025]" started-at="2023-04-11T09:39:11 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-11T09:39:13 IST" duration-ms="1421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:Testcases.Logintestcases@3a93b025]" started-at="2023-04-11T09:39:13 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-11T09:39:14 IST" duration-ms="1482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[scret_sause]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:Testcases.Logintestcases@3a93b025]" started-at="2023-04-11T09:39:14 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-11T09:39:15 IST" duration-ms="1082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+      </class> <!-- Testcases.Logintestcases -->
+      <class name="Testcases.Cartinformcheck">
+        <test-method signature="verifywithblankinfo()[pri:0, instance:Testcases.Cartinformcheck@478190fc]" started-at="2023-04-11T09:38:42 IST" name="verifywithblankinfo" finished-at="2023-04-11T09:38:50 IST" duration-ms="7935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywithblankinfo -->
+        <test-method signature="verifywithonlysetfirstname()[pri:0, instance:Testcases.Cartinformcheck@478190fc]" started-at="2023-04-11T09:38:50 IST" name="verifywithonlysetfirstname" finished-at="2023-04-11T09:38:52 IST" duration-ms="1776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywithonlysetfirstname -->
+        <test-method signature="verifywithonlysetlastname()[pri:0, instance:Testcases.Cartinformcheck@478190fc]" started-at="2023-04-11T09:38:52 IST" name="verifywithonlysetlastname" finished-at="2023-04-11T09:38:54 IST" duration-ms="1894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywithonlysetlastname -->
+        <test-method signature="verifywithonlysetpasscode()[pri:0, instance:Testcases.Cartinformcheck@478190fc]" started-at="2023-04-11T09:38:54 IST" name="verifywithonlysetpasscode" finished-at="2023-04-11T09:38:55 IST" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywithonlysetpasscode -->
+        <test-method signature="verifywithrandomaddress()[pri:0, instance:Testcases.Cartinformcheck@478190fc]" started-at="2023-04-11T09:38:55 IST" name="verifywithrandomaddress" finished-at="2023-04-11T09:38:57 IST" duration-ms="1808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywithrandomaddress -->
+        <test-method signature="verifywithsetthreevalue()[pri:0, instance:Testcases.Cartinformcheck@478190fc]" started-at="2023-04-11T09:38:57 IST" name="verifywithsetthreevalue" finished-at="2023-04-11T09:39:00 IST" duration-ms="2568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywithsetthreevalue -->
+      </class> <!-- Testcases.Cartinformcheck -->
+      <class name="Testcases.Menuicon">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Menuicon@6ae5aa72]" started-at="2023-04-11T09:38:09 IST" name="setup" finished-at="2023-04-11T09:38:16 IST" duration-ms="6694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyaboutbutton()[pri:0, instance:Testcases.Menuicon@6ae5aa72]" started-at="2023-04-11T09:38:16 IST" name="verifyaboutbutton" finished-at="2023-04-11T09:38:34 IST" duration-ms="18235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaboutbutton -->
+        <test-method signature="verifyallitems()[pri:0, instance:Testcases.Menuicon@6ae5aa72]" started-at="2023-04-11T09:38:34 IST" name="verifyallitems" finished-at="2023-04-11T09:38:38 IST" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyallitems -->
+        <test-method signature="verifylogoutbutton()[pri:0, instance:Testcases.Menuicon@6ae5aa72]" started-at="2023-04-11T09:38:38 IST" name="verifylogoutbutton" finished-at="2023-04-11T09:38:39 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogoutbutton -->
+        <test-method signature="verifymenuicon()[pri:0, instance:Testcases.Menuicon@6ae5aa72]" started-at="2023-04-11T09:38:39 IST" name="verifymenuicon" finished-at="2023-04-11T09:38:40 IST" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymenuicon -->
+        <test-method signature="verifyresetapp()[pri:0, instance:Testcases.Menuicon@6ae5aa72]" started-at="2023-04-11T09:38:40 IST" name="verifyresetapp" finished-at="2023-04-11T09:38:41 IST" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyresetapp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Menuicon@6ae5aa72]" started-at="2023-04-11T09:39:24 IST" name="teardown" finished-at="2023-04-11T09:39:27 IST" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.Menuicon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
